@@ -1,0 +1,126 @@
+##############################
+VERSION: 2.0.1
+Sep 23, 2021
+##############################
+
+Developer: Babar
+
+Fixed home 1 to Echo index after generation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############################
+VERSION: 2.0.0
+March 7, 2021
+##############################
+
+Latest Button Style: 8
+Latest Sidebar Style: 10
+Latest Stylesheet: 1
+
+New Sections:
+-----------------
+# services-10.html
+# services-11.html
+# services-12.html
+# services-13.html
+# services-14.html
+# services-15.html
+# services-16.html
+# services-17.html
+# services-18.html
+# services-19.html
+# about-11.html
+# about-12.html
+# about-13.html
+# about-14.html
+# about-15.html
+# about-16.html
+# about-17.html
+# about-18.html
+# about-19.html
+# about-20.html
+# about-21.html
+# about-22.html
+# about-23.html
+# about-24.html
+# about-25.html
+# counter-6.html
+# counter-7.html
+# counter-8.html
+# clients-2.html
+# clients-3.html
+# clients-4.html
+# cta-15.html
+# cta-16.html
+# cta-17.html
+# cta-18.html
+# cta-19.html
+# cta-20.html
+# cta-21.html
+# cta-22.html
+# cta-23.html
+# infobox-14.html
+# infobox-15.html
+# infobox-16.html
+# infobox-17.html
+# infobox-18.html
+# infobox-19.html
+# infobox-20.html
+# faq-12.html
+# faq-13.html
+# team-12.html
+# team-13.html
+# team-14.html
+# team-15.html
+# team-16.html
+# team-17.html
+# team-18.html
+# blog-10.html
+# blog-11.html
+# blog-12.html
+# blog-13.html
+# contact-form-8.html
+# contact-form-9.html
+# contact-form-10.html
+# contact-form-11.html
+# portfolio-13.html
+# portfolio-14.html
+# portfolio-15.html
+# portfolio-16.html
+# portfolio-17.html
+# footer-19.html
+# footer-20.html
+# footer-21.html
+# footer-22.html
+# hero-16.html
+# hero-17.html
+# hero-18.html
+# hero-19.html
+# header-12.html
+# header-13.html
+# header-14.html
+# header-15.html
+# header-16.html
+# blog-details-4.html
+# blog-details-5.html
+# portfolio-details-2.html
+# service-details-2.html
+# service-details-3.html
+# testimonial-12.html
+# testimonial-13.html
+# testimonial-14.html
+# testimonial-15.html
+# instagram-6.html
+
+------------------------------------------------------------------

@@ -1,0 +1,17 @@
+{
+  "slidesigma": {
+    "name": "Slidesigma",
+    "secret_key": "6LceXdwUAAAAAJxGDZxVUFyo5c33EYj0n6netovu",
+    "site_key": "6LceXdwUAAAAAM624k2Zezhs-jnmdJE8hjmhRMBh"
+  },
+  "metropolitanhost": {
+    "name": "MetropolitanHost",
+    "secret_key": "6LdxUhMaAAAAAGGLwVZGbxc_chy8-c3VhesxKhsO",
+    "site_key": "6LdxUhMaAAAAAIrQt-_6Gz7F_58S4FlPWaxOh5ib"
+  },
+  "themeganj": {
+    "name": "ThemeGanj",
+    "secret_key": "6Lc_A-cZAAAAAI2EkfZezJmx_CjOGv_UaJGMwg0g",
+    "site_key": "6LceXdwUAAAAAM624k2Zezhs-jnmdJE8hjmhRMBh"
+  }
+}

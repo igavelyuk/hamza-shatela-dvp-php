@@ -1,0 +1,72 @@
+About Us Page: 
+**********
+Image Count: 17
+Icon Count: 3
+Pages: header-11.html - subheader-7.html - preloader-8.html - popup-5.html - about-7.html - team-3.html - counter-14.html - to-top-7.html - footer-23.html
+
+Services Page: 
+**********
+Image Count: 14
+Icon Count: 3
+Pages: header-11.html - subheader-7.html - preloader-8.html - popup-5.html - services-28.html - cta-6.html - pricing-5.html - to-top-7.html - footer-23.html
+
+Blog Page: 
+**********
+Image Count: 25
+Icon Count: 0
+Pages: header-11.html - subheader-7.html - preloader-8.html - popup-5.html - blog-archive-4.html - to-top-7.html - footer-23.html
+
+Home Page: 
+**********
+Image Count: 40
+Icon Count: 11
+Pages: header-11.html - hero-12.html - preloader-8.html - about-12.html - popup-5.html - blog-8.html - services-13.html - counter-15.html - team-13.html - cta-8.html - testimonial-26.html - portfolio-6.html - feature-9.html - to-top-7.html - footer-23.html
+
+Blog Details Page: 
+**********
+Image Count: 21
+Icon Count: 0
+Pages: header-11.html - subheader-7.html - preloader-8.html - popup-5.html - blog-details-3.html - to-top-7.html - footer-23.html
+
+Contact Us Page: 
+**********
+Image Count: 12
+Icon Count: 4
+Pages: header-11.html - subheader-7.html - preloader-8.html - popup-5.html - contact-form-5.html - infobox-15.html - to-top-7.html - footer-23.html
+
+Home Page: 
+**********
+Image Count: 27
+Icon Count: 6
+Pages: header-16.html - hero-6.html - about-7.html - popup-5.html - blog-2.html - services-2.html - portfolio-13.html - team-3.html - testimonial-16.html - footer-11.html
+
+About Us Page: 
+**********
+Image Count: 7
+Icon Count: 0
+Pages: header-16.html - popup-5.html - about-7.html - team-3.html - footer-11.html
+
+Services Page: 
+**********
+Image Count: 9
+Icon Count: 6
+Pages: header-16.html - popup-5.html - services-2.html - footer-11.html
+
+Blog Page: 
+**********
+Image Count: 8
+Icon Count: 0
+Pages: header-16.html - popup-5.html - footer-11.html - blog-archive-3.html
+
+Blog Details Page: 
+**********
+Image Count: 17
+Icon Count: 0
+Pages: header-16.html - popup-5.html - footer-11.html - blog-details-4.html
+
+Contact Us Page: 
+**********
+Image Count: 3
+Icon Count: 4
+Pages: header-16.html - popup-5.html - footer-11.html - infobox-15.html
+

@@ -1,0 +1,719 @@
+{   "nano_template_6": [
+    {
+      "name": "Home",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "services", "cta", "pricing" ],
+      "limit": 5
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form", "infobox" ],
+      "limit": 5
+    }
+  ],	
+	"tiny_template_9": [
+    {
+      "name": "Home",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "services", "cta", "pricing" ],
+      "limit": 5
+    },
+    {
+      "name": "Service Details",
+      "sections": [ "service-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form", "infobox" ],
+      "limit": 5
+    },
+    {
+      "name": "Portfolio",
+      "sections": [ "portfolio" ],
+      "limit": 4
+    },
+    {
+      "name": "Portfolio Details",
+      "sections": [ "portfolio-details" ],
+      "limit": 4
+    }
+  ],	
+     "small_template_12": [
+    {
+      "name": "Home 1",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+	{
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+	{
+      "name": "Home 2",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter", "blog" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "services", "cta", "about", "pricing" ],
+      "limit": 5
+    },
+    {
+      "name": "Service Details",
+      "sections": [ "service-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form", "infobox" ],
+      "limit": 5
+    },
+    {
+      "name": "Portfolio",
+      "sections": [ "portfolio" ],
+      "limit": 4
+    },
+    {
+      "name": "Portfolio Details",
+      "sections": [ "portfolio-details" ],
+      "limit": 4
+    },
+	{
+      "name": "Coming Soon",
+      "sections": [ "coming-soon" ],
+      "limit": 4
+    },
+    {
+      "name": "Error",
+      "sections": [ "error" ],
+      "limit": 12
+    }
+  ],
+     "meduim_template_18": [
+    {
+      "name": "Home 1",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 2",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter", "blog" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "services", "cta", "about", "pricing" ],
+      "limit": 5
+    },
+    {
+      "name": "Service Details",
+      "sections": [ "service-details" ],
+      "limit": 4
+    },
+	{
+      "name": "Pricing",
+      "sections": [ "pricing" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details- Audio",
+      "sections": [ "blog-details-audio" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Video",
+      "sections": [ "blog-details-video" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Gallery",
+      "sections": [ "blog-details-gallery" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Quote",
+      "sections": [ "blog-details-quote" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Link",
+      "sections": [ "blog-details-link" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form", "infobox" ],
+      "limit": 5
+    },
+    {
+      "name": "Portfolio",
+      "sections": [ "portfolio" ],
+      "limit": 4
+    },
+    {
+      "name": "Portfolio Details",
+      "sections": [ "portfolio-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Team",
+      "sections": [ "team" ],
+      "limit": 4
+    },
+    {
+      "name": "Error",
+      "sections": [ "error" ],
+      "limit": 12
+    },
+    {
+      "name": "Coming Soon",
+      "sections": [ "coming-soon" ],
+      "limit": 12
+    }
+  ],
+     "big_template_24": [
+    {
+      "name": "Home 1",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 2",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+	{
+      "name": "Home 3",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter", "blog" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "services", "cta", "about", "pricing" ],
+      "limit": 5
+    },
+	{
+      "name": "Services 2",
+      "sections": [ "services" ],
+      "limit": 5
+    },
+    {
+      "name": "Service Details",
+      "sections": [ "service-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+	{
+      "name": "Pricing",
+      "sections": [ "pricing" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details- Audio",
+      "sections": [ "blog-details-audio" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Video",
+      "sections": [ "blog-details-video" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Gallery",
+      "sections": [ "blog-details-gallery" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Quote",
+      "sections": [ "blog-details-quote" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Link",
+      "sections": [ "blog-details-link" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form", "infobox" ],
+      "limit": 5
+    },
+    {
+      "name": "Portfolio",
+      "sections": [ "portfolio" ],
+      "limit": 4
+    },
+    {
+      "name": "Portfolio Details",
+      "sections": [ "portfolio-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Team",
+      "sections": [ "team" ],
+      "limit": 4
+    },
+    {
+      "name": "Error",
+      "sections": [ "error" ],
+      "limit": 12
+    },
+    {
+      "name": "Coming Soon",
+      "sections": [ "coming-soon" ],
+      "limit": 12
+    },
+	{
+      "name": "FAQ",
+      "sections": [ "faq" ],
+      "limit": 12
+    },
+	{
+      "name": "Testimonials",
+      "sections": [ "testimonial" ],
+      "limit": 12
+    },
+	{
+      "name": "Our Clients",
+      "sections": [ "clients" ],
+      "limit": 12
+    }
+  ],
+  	"huge_template_32": [
+    {
+      "name": "Home 1",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 2",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+	{
+      "name": "Home 3",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+	{
+      "name": "Home 4",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 5",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+	{
+      "name": "Home 6",
+      "sections": [ "about", "feature", "counter", "infobox", "team", "blog", "cta", "pricing", "testimonial" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter", "blog" ],
+      "limit": 7
+    },
+	{
+      "name": "Founder",
+      "sections": [ "about", "counter" ],
+      "limit": 7
+    },
+	{
+      "name": "Gallery",
+      "sections": [ "gallery" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "services", "cta", "about", "pricing" ],
+      "limit": 5
+    },
+    {
+      "name": "Service Details",
+      "sections": [ "service-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+	{
+      "name": "Pricing",
+      "sections": [ "pricing" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details- Audio",
+      "sections": [ "blog-details-audio" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Video",
+      "sections": [ "blog-details-video" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Gallery",
+      "sections": [ "blog-details-gallery" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Quote",
+      "sections": [ "blog-details-quote" ],
+      "limit": 4
+    },
+	{
+      "name": "Blog Details- Link",
+      "sections": [ "blog-details-link" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form", "infobox" ],
+      "limit": 5
+    },
+    {
+      "name": "Portfolio",
+      "sections": [ "portfolio" ],
+      "limit": 4
+    },
+    {
+      "name": "Portfolio Details",
+      "sections": [ "portfolio-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Team",
+      "sections": [ "team" ],
+      "limit": 4
+    },
+	{
+      "name": "Team Details",
+      "sections": [ "team-details" ],
+      "limit": 4
+    },
+	{
+      "name": "Typography",
+      "sections": [ "typography" ],
+      "limit": 4
+    },
+    {
+      "name": "Error",
+      "sections": [ "error" ],
+      "limit": 12
+    },
+    {
+      "name": "Coming Soon",
+      "sections": [ "coming-soon" ],
+      "limit": 12
+    },
+	{
+      "name": "FAQ",
+      "sections": [ "faq" ],
+      "limit": 12
+    },
+	{
+      "name": "Testimonials",
+      "sections": [ "testimonial" ],
+      "limit": 12
+    },
+	{
+      "name": "Login",
+      "sections": [ "login" ],
+      "limit": 12
+    },
+	{
+      "name": "Signup",
+      "sections": [ "signup" ],
+      "limit": 12
+    },
+	{
+      "name": "Our Clients",
+      "sections": [ "clients" ],
+      "limit": 12
+    }
+  ],
+  "digital_agency": [
+    {
+      "name": "Home 1",
+      "sections": [ "infobox", "about", "cta", "portfolio", "services", "counter", "team", "testimonial", "cta", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 2",
+      "sections": [ "about", "feature", "cta", "infobox", "services", "blog", "counter", "pricing", "testimonial", "blog" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "infobox", "counter", "cta", "team" ],
+      "limit": 7
+    },
+    {
+      "name": "Services",
+      "sections": [ "about", "services", "cta", "pricing" ],
+      "limit": 5
+    },
+    {
+      "name": "Service Details",
+      "sections": [ "service-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form" ],
+      "limit": 5
+    },
+    {
+      "name": "Portfolio",
+      "sections": [ "portfolio" ],
+      "limit": 4
+    },
+    {
+      "name": "Portfolio Details",
+      "sections": [ "portfolio-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Team",
+      "sections": [ "team" ],
+      "limit": 4
+    }
+  ],
+  "ecommerce": [
+    {
+      "name": "Home 1",
+      "sections": [ "taxonomy", "about", "cta", "products", "taxonomy", "counter", "products", "cta", "blog", "quickview" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 2",
+      "sections": [ "about", "products", "counter", "infobox", "products", "blog", "cta", "products", "testimonial", "quickview" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter", "blog" ],
+      "limit": 7
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form" ],
+      "limit": 5
+    },
+    {
+      "name": "Shop",
+      "sections": [ "shop", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Cart",
+      "sections": [ "cart", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Checkout",
+      "sections": [ "checkout", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Product Details",
+      "sections": [ "product-details", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Wishlist",
+      "sections": [ "wishlist", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Login",
+      "sections": [ "login" ],
+      "limit": 4
+    },
+    {
+      "name": "Signup",
+      "sections": [ "signup" ],
+      "limit": 4
+    }
+  ],
+    "ecommerce": [
+    {
+      "name": "Home 1",
+      "sections": [ "taxonomy", "about", "cta", "products", "taxonomy", "counter", "products", "cta", "blog", "quickview" ],
+      "limit": 12
+    },
+    {
+      "name": "Home 2",
+      "sections": [ "about", "products", "counter", "infobox", "products", "blog", "cta", "products", "testimonial", "quickview" ],
+      "limit": 12
+    },
+    {
+      "name": "About us",
+      "sections": [ "about", "team", "counter", "blog" ],
+      "limit": 7
+    },
+    {
+      "name": "Blog",
+      "sections": [ "blog-archive" ],
+      "limit": 4
+    },
+    {
+      "name": "Blog Details",
+      "sections": [ "blog-details" ],
+      "limit": 4
+    },
+    {
+      "name": "Contact Us",
+      "sections": [ "contact-form" ],
+      "limit": 5
+    },
+    {
+      "name": "Shop",
+      "sections": [ "shop", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Cart",
+      "sections": [ "cart", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Checkout",
+      "sections": [ "checkout", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Product Details",
+      "sections": [ "product-details", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Wishlist",
+      "sections": [ "wishlist", "quickview" ],
+      "limit": 4
+    },
+    {
+      "name": "Login",
+      "sections": [ "login" ],
+      "limit": 4
+    },
+    {
+      "name": "Signup",
+      "sections": [ "signup" ],
+      "limit": 4
+    }
+  ]
+}

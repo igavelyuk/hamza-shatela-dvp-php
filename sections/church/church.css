@@ -1,0 +1,897 @@
+
+
+/*-------------- Event Sections --------------------------- */
+
+/* style 1 */
+
+.sigma_event-sec{
+  background-color: var(--thm-section-bg);
+  z-index: 1;
+}
+
+.sigma_event{
+	position: relative;
+	margin-bottom: 30px;
+	transition: 0.3s;
+}
+
+.sigma_event .sigma_event-thumb{
+	overflow: hidden;
+	position: relative;
+}
+
+.sigma_event .sigma_event-thumb img{
+	transition: 0.3s;
+	width: 100%;
+	transform: scale(1);
+}
+
+.sigma_event .sigma_event-thumb:hover img{
+    transform: scale(1.1); 
+}
+
+.sigma_event .sigma_event-body{
+	padding: 45px 30px;
+	background-color: #fff;
+	border: 1px solid var(--thm-border);
+	transition: 0.3s;
+	position: relative;
+}
+
+.sigma_event:hover{
+	box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.03);
+}
+
+.sigma_event:hover .sigma_event-body{
+	border-color: transparent;
+}
+
+.sigma_event .subtitle{
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+}
+
+.sigma_event .sigma_event-info{
+	display: flex;
+	align-items: center;
+	margin: 28px 0;
+}
+
+.sigma_event-date{
+	color: var(--thm-secondary);
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.sigma_event-date span{
+	color: var(--thm-base);
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1;
+	display: block;
+}
+
+.sigma_event .sigma_event-info-list{
+	flex: 1;
+}
+
+.sigma_event .sigma_event-info-list li{
+	display: flex;
+}
+
+.sigma_event .sigma_event-info-list li + li{
+	margin-top: 12px;
+}
+
+.sigma_event .sigma_event-info-list li i{
+	color: var(--thm-base);
+	margin-right: 12px;
+	line-height: 1.8;
+}
+
+/* style 2 */
+
+.sigma_event.style-2 .sigma_event-thumb .sigma_event-date{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 140px;
+	height: 140px;
+	background-color: var(--thm-secondary);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.sigma_event.style-2 .sigma_event-info-list li{
+	font-weight: 600;
+}
+
+/* style 3 */
+
+.sigma_event.style-3{
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+}
+
+.sigma_event.style-3 .sigma_event-body{
+	padding: 90px 30px 30px;
+	border: 0;
+}
+
+.sigma_event.style-3 .sigma_event-date{
+   margin-right: 0;
+   text-align: left;
+   display: inline-block;
+   text-align: center;
+   border-radius: 8px;
+   overflow: hidden;
+   position: absolute;
+   top: -44px;
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+}
+
+.sigma_event.style-3 .sigma_event-date span:first-child{
+	padding: 15px 20px;
+	background-color: #fff;
+}
+
+.sigma_event.style-3 .sigma_event-date span:last-child{
+	font-size: 16px;
+	color: #fff;
+	background-color: var(--thm-base);
+	padding: 8px;
+}
+
+.sigma_event.style-3 .sigma_event-body .btn-link{
+	font-weight: 600;
+	color: var(--thm-base);
+}
+
+.sigma_event.style-3 .sigma_event-body .btn-link:hover{
+	color: var(--thm-base-hover);
+}
+
+.sigma_event.style-3 .sigma_event-body .btn-link i{
+	font-size: 18px;
+}
+
+.sigma_event.style-3 .sigma_event-info{
+	margin: 20px 0;
+}
+
+/*-- Event Detail -- */
+
+.sigma_post-details .sigma_event-counter{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: var(--thm-secondary);
+	opacity: 0.6;
+	position: absolute;
+	left: 0;
+    bottom: 0;
+}
+
+.sigma_post-details .sigma_event-counter .sigma_event-date{
+	padding: 13px 24px;
+	border-right: 1px solid rgba(255, 255, 255, 0.4);
+	color: #fff;
+	margin-right: 0;
+}
+
+.sigma_post-details .sigma_event-counter .sigma_countdown-timer{
+	flex: 1;
+	padding: 0 50px;
+}
+
+.sigma_post-details .sigma_event-counter .sigma_countdown-timer  li{
+	border: 0;
+	width: auto;
+	height: auto;
+}
+
+.sigma_post-details .sigma_event-counter .sigma_countdown-timer  h5{
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.widget.widget-event-info li{
+	display: flex;
+	align-items: center;
+}
+
+.widget.widget-event-info li + li{
+  margin-top: 15px;
+}
+
+.widget.widget-event-info li span{
+  display: block;
+  width: 46%;
+  font-weight: 600;
+}
+
+.widget.widget-upcoming-events li{
+  display: flex;
+  align-items: center;
+}
+
+.widget.widget-upcoming-events li + li{
+  padding-top: 25px;
+  margin-top: 25px;
+  border-top: 1px solid var(--thm-border);
+}
+
+.widget.widget-upcoming-events li .sigma_event-date{
+  border-right: 1px solid var(--thm-border);
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.widget.widget-upcoming-events li h6{
+  margin-bottom: 3px;
+}
+
+.widget.widget-upcoming-events li p{
+  margin-bottom: 0;
+}
+
+
+/*-------------- Sermon Sections --------------------------- */
+
+/* style 1 */
+
+.sigma_sermon-sec{
+  background-color: var(--thm-section-bg);
+  z-index: 1;
+}
+
+.sigma_sermon{
+	position: relative;
+	margin-bottom: 30px;
+	transition: 0.3s;
+}
+
+.sigma_sermon .sigma_sermon-thumb{
+	overflow: hidden;
+	position: relative;
+}
+
+.sigma_sermon .sigma_sermon-thumb img{
+	transition: 0.3s;
+	width: 100%;
+	transform: scale(1);
+}
+
+.sigma_sermon .sigma_sermon-thumb:hover img{
+    transform: scale(1.1); 
+}
+
+.sigma_sermon .sigma_sermon-body{
+	padding: 45px 30px;
+	background-color: #fff;
+	border: 1px solid var(--thm-border);
+	position: relative;
+	transition: 0.3s;
+}
+
+.sigma_sermon:hover{
+	box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.03);
+}
+
+.sigma_sermon:hover .sigma_sermon-body{
+	border-color: transparent;
+}
+
+.sigma_sermon .subtitle{
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 6px;
+	text-transform: uppercase;
+}
+
+.sigma_sermon-info-list,
+.sigma_sermon .sigma_sermon-social{
+	display: flex;
+	align-items: center;
+	margin-top: 28px;
+}
+
+.sigma_sermon-info-list li{
+	display: flex;
+}
+
+.sigma_sermon-info-list li + li{
+	margin-left: 24px;
+}
+
+.sigma_sermon-info-list li i{
+	color: var(--thm-base);
+	margin-right: 12px;
+	line-height: 1.8;
+}
+.sigma_sermon-info-list li a{
+	color: var(--thm-b-text);
+	text-decoration: underline;
+	margin-left: 5px;
+}
+.sigma_sermon-info-list li a:hover{
+	color: var(--thm-base);
+}
+
+.sigma_sermon .sigma_sermon-social li + li{
+	margin-left: 15px;
+}
+
+.sigma_sermon .sigma_sermon-social li a{
+	width: 50px;
+	height: 50px;
+	border: 2px solid var(--thm-border);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	color: var(--thm-b-text);
+	transition: 0.3s;
+}
+
+.sigma_sermon .sigma_sermon-social li a:hover{
+  border-color: var(--thm-base);
+  color: var(--thm-base);
+}
+
+
+/* style 2 */
+
+.sigma_sermon.style-2{
+   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+}
+
+.sigma_sermon.style-2 .sigma_sermon-body{
+   border: 0;	
+}
+
+.sigma_sermon.style-2 .sigma_sermon-social{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -30px;
+	justify-content: center;
+	margin: 0;
+}
+
+.sigma_sermon.style-2 .sigma_sermon-social li a{
+  border: 0;
+  background-color: var(--thm-base);
+  color: #fff;
+}
+.sigma_sermon.style-2 .sigma_sermon-social li a:hover{
+  background-color: var(--thm-base-hover);
+}
+
+.sigma_sermon.style-2 .sigma_sermon-info-list{
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px 0 25px;
+}
+
+.sigma_sermon.style-2 .sigma_sermon-info-list li + li{
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+/*-- Sermon Detail -- */
+
+.sigma_post-details .sigma_sermon-social{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.sigma_post-details .sigma_sermon-social li{
+   width: 25%;
+}
+
+.sigma_post-details .sigma_sermon-social li a{
+	padding: 30px 10px;
+	background-color: var(--thm-secondary);
+	opacity: 0.6;
+	width: 100%;
+	font-size: 18px;
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sigma_post-details .sigma_sermon-social li a i{
+	color: #fff;
+	transition: 0.3s;
+}
+
+.sigma_post-details .sigma_sermon-social li a:hover i{
+	color: var(--thm-base);
+}
+
+.sigma_post-details .sigma_sermon-social li + li{
+	border-left: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.sigma_post-details .entry-content .sigma_sermon-info-list{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sigma_post-details .sidebar .sigma_sermon{
+	margin-bottom: 0;
+}
+
+.sigma_post-details .sidebar .sigma_sermon:hover{
+	box-shadow: none;
+}
+
+.sigma_post-details .sidebar .sigma_sermon .sigma_sermon-info-list{
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 18px;
+}
+
+.sigma_post-details .sidebar .sigma_sermon .sigma_sermon-info-list li + li{
+	margin-left: 0;
+	margin-top: 12px;
+}
+
+
+/*-------------- Donation Sections --------------------------- */
+
+/* style 1 */
+
+.sigma_donation-sec{
+  background-color: var(--thm-section-bg);
+  z-index: 1;
+}
+
+.sigma_donation{
+	position: relative;
+	transition: 0.3s;
+	transform: translateY(0);
+	margin-bottom: 30px;
+}
+
+.sigma_donation:hover{
+	transform: translateY(-2px);
+}
+
+.sigma_donation .sigma_donation-thumb{
+	overflow: hidden;
+}
+
+.sigma_donation .sigma_donation-thumb img{
+	transition: 0.3s;
+	width: 100%;
+	transform: scale(1);
+}
+
+.sigma_donation .sigma_donation-thumb:hover img{
+    transform: scale(1.1); 
+}
+
+.sigma_donation .sigma_donation-body{
+	border: 1px solid var(--thm-border);
+	padding: 30px;
+	background-color: #fff;
+	position: relative;
+	transition: 0.3s;
+}
+
+.sigma_donation .sigma_donation-progress{
+	margin: 22px 0 30px;
+}
+
+.sigma_donation .sigma_donation-progress .progress-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sigma_donation .sigma_donation-progress .progress-content p{
+	color: var(--thm-secondary);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sigma_donation .sigma_progress{
+	margin-top: 15px;
+}
+
+.sigma_donation .progress{
+   height: 8px;
+   background-color: var(--thm-border);
+}
+
+
+/* style 2 */
+
+.sigma_donation.style-2 .sigma_donation-body{
+	text-align: center;
+	padding: 0;
+}
+
+.sigma_donation.style-2 .sigma_donation-inner{
+	padding: 30px 20px;
+}
+
+.sigma_donation.style-2 .sigma_progress{
+	margin: 0;
+}
+
+.sigma_donation.style-2 .sigma_donation-progress{
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--thm-border);
+}
+
+.sigma_donation.style-2 .sigma_donation-progress .progress-content{
+	justify-content: center;
+}
+
+.sigma_donation.style-2 .sigma_donation-progress .progress-content p{
+	color: var(--thm-base);
+}
+
+.sigma_donation.style-2 .sigma_donation-progress .progress-content p + p{
+	padding-left: 40px;
+	margin-left: 40px;
+	border-left: 1px solid var(--thm-border);
+}
+
+.sigma_donation.style-2 .sigma_donation-progress .progress-content span{
+	color: var(--thm-b-text);
+	font-weight: 600;
+	display: block;
+}
+
+/* style 3 */
+
+.sigma_donation.style-3 .sigma_progress{
+  margin-top: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.08);
+  position: absolute;
+  top: -45px;
+  right: 20px;
+}
+
+.sigma_donation.style-3 .sigma_progress.round.sm svg{
+  width: 75px;
+  height: 75px;
+}
+
+.sigma_progress.round.sm>span{
+  display: flex;
+  align-items: flex-end;	
+}
+.sigma_progress.round.sm>span b{
+	font-size: 24px;
+}
+
+.sigma_donation.style-3 .sigma_progress.round .sigma_progress-round,
+.sigma_donation.style-3 .sigma_progress.round .sigma_progress-stroke{
+  stroke-width: 15px;
+}
+
+.sigma_donation.style-3 .sigma_donation-body{
+  padding: 40px 30px 30px;	
+}
+
+.sigma_donation.style-3 .sigma_donation-progress{
+	margin-bottom: 0;
+	transition: 0.3s;
+}
+
+.sigma_donation.style-3 .sigma_donation-body .sigma_btn{
+	position: absolute;
+	left: 30px;
+	bottom: 10px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.sigma_donation.style-3:hover .sigma_donation-body{
+	padding-bottom: 105px;
+	margin-top: -60px;
+}
+.sigma_donation.style-3:hover .sigma_donation-body .sigma_btn{
+	opacity: 1;
+	visibility: visible;
+	bottom: 30px;
+} 
+
+.sigma_donation.style-3 .sigma_donation-progress .progress-content p{
+  color: var(--thm-b-text);
+  font-size: 18px;
+}
+
+.sigma_donation.style-3 .sigma_donation-progress .progress-content p span{
+	color: var(--thm-base);
+	margin-left: 2px;
+}
+
+
+/* style 4 */
+
+.sigma_donation.style-4{
+   text-align: center;
+}
+
+.sigma_donation.style-4:hover{
+	transform: none;
+}
+
+.sigma_donation.style-4 .sigma_donation-progress{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 0 60px;
+}
+
+.sigma_donation.style-4 .sigma_donation-progress .sigma_progress{
+	margin: 0 60px;
+}
+
+.sigma_donation.style-4 .sigma_donation-progress .progress-content p{
+   color: #fff;
+}
+
+.sigma_donation.style-4 .sigma_progress.round .sigma_progress-stroke{
+   stroke: #fff;
+   stroke-width: 25px;
+}
+.sigma_donation.style-4 .sigma_progress.round .sigma_progress-round{
+	stroke-width: 25px;
+	stroke-linecap: square;
+}
+.sigma_donation.style-4 .sigma_progress.round>span{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.sigma_donation-slider .slick-prev,
+.sigma_donation-slider .slick-next{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -20px;
+	background-color: transparent;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	color: #fff;
+	z-index: 1;
+}
+
+.sigma_donation-slider .slick-next{
+	left: auto;
+	right: -20px;
+}
+
+.sigma_donation-slider:hover .slick-prev{
+	left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.sigma_donation-slider:hover .slick-next{
+	right: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.sigma_donation-slider .slick-prev:hover,
+.sigma_donation-slider .slick-next:hover{
+	background-color: #fff;
+	color: var(--thm-secondary);
+}
+
+/*-- Donation Detail -- */
+
+.sigma_post-details .sigma_donation-info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--thm-secondary);
+	opacity: 0.6;
+	padding: 30px 45px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%
+}
+
+.sigma_post-details .sigma_donation-info .sigma_donation-progress{
+	width: 38%;
+}
+
+.sigma_post-details .sigma_donation-info .progress{
+	height: 8px;
+}
+
+
+/*-------------- Donation Form --------------------------- */
+
+/* style 1 */
+
+.sigma_donation-form-sec{
+  background-color: var(--thm-section-bg);
+  z-index: 1;
+}
+
+.sigma_donation-form .input-group{
+	max-width: 370px;
+}
+
+.sigma_donation-form .input-group .sigma_btn{
+	font-size: 24px;
+	line-height: 0;
+}
+
+.sigma_donation-form .sigma_donation-amount{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.sigma_donation-form .sigma_donation-amount li{
+	padding: 6px 22px;
+	border: 2px solid var(--thm-border);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: 0.3s;
+}
+
+.sigma_donation-form .sigma_donation-amount li + li{
+	margin-left: 15px;
+}
+
+.sigma_donation-form .sigma_donation-amount li:hover,
+.sigma_donation-form .sigma_donation-amount li.active{
+	color: #fff;
+	border-color: var(--thm-base);
+	background-color: var(--thm-base);
+}
+
+
+/*-------------- Ministry Sections --------------------------- */
+
+/* style 1 */
+
+.sigma_ministry-sec{
+  background-color: var(--thm-section-bg);
+  z-index: 1;
+}
+
+.sigma_ministry{
+	position: relative;
+	transition: 0.3s;
+	margin-bottom: 30px;
+}
+
+.sigma_ministry .sigma_ministry-thumb{
+	overflow: hidden;
+}
+
+.sigma_ministry .sigma_ministry-thumb a{
+	display: block;
+}
+
+.sigma_ministry .sigma_ministry-thumb img{
+	transition: 0.3s;
+	width: 100%;
+	transform: scale(1);
+}
+
+.sigma_ministry .sigma_ministry-thumb:hover img{
+    transform: scale(1.1); 
+}
+
+.sigma_ministry .sigma_ministry-body{
+	padding-top: 20px;
+}
+
+
+/* style 2 */
+
+.sigma_ministry.style-2{
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.08);
+	border-bottom: 5px solid var(--thm-base);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.sigma_ministry.style-2 .sigma_ministry-body{
+	padding: 30px;
+}
+
+.sigma_ministry.style-2 .sigma_ministry-body .btn-link{
+	color: var(--thm-base);
+	font-weight: 600;
+}
+.sigma_ministry.style-2 .sigma_ministry-body .btn-link i{
+	font-size: 18px;
+}
+
+
+@media(max-width: 767px) {
+
+  /* Donation Details */
+  .sigma_post-details .sigma_donation-info,
+  .sigma_post-details .sigma_event-counter{
+  	position: static;
+  	opacity: 1;
+  }
+}
+
+@media(max-width: 575px) {
+
+	/* Event style 1 */
+
+  .sigma_event .sigma_event-info{
+  	flex-direction: column;
+  	align-items: flex-start;
+  }
+
+  .sigma_event-info .sigma_event-date{
+  	margin-right: 0;
+  	margin-bottom: 15px;
+  }
+
+  /* Event style 2 */
+  .sigma_event.style-2 .sigma_event-thumb .sigma_event-date{
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Donation style 4 */
+  .sigma_donation.style-4 .sigma_donation-progress .sigma_progress{
+  	margin: 0 30px;
+  }
+
+  /* Sermon style 1 */
+  .sigma_sermon .sigma_sermon-info-list{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .sigma_sermon .sigma_sermon-info-list li + li{
+  	margin-left: 0;
+  	margin-top: 10px;
+  }
+
+  /* Donation Details */
+  .sigma_post-details .sigma_donation-info{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .sigma_post-details .sigma_donation-info .sigma_donation-progress{
+  	width: 100%;
+  }
+
+  /* Event Details */
+  .sigma_post-details .sigma_event-counter .sigma_countdown-timer{
+  	padding: 0;
+  }
+}

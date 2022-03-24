@@ -1,0 +1,34 @@
+{
+  "variant_one": [
+    {
+      "name": "Home 1",
+      "sections": [ "feature", "about", "services", "portfolio", "team", "counter", "testimonial", "cta", "blog", "contact-form" ],
+      "menu_items": [ "about", "services", "team", "testimonial", "contact-form" ],
+      "limit": 12
+    }
+  ],
+  "variant_two": [
+    {
+      "name": "Home 1",
+      "sections": [ "about", "tabs", "services", "portfolio", "team", "counter", "testimonial", "pricing", "contact-form", "cta" ],
+      "menu_items": [ "about", "services", "work", "testimonial", "contact-form" ],
+      "limit": 12
+    }
+  ],
+  "variant_three": [
+    {
+      "name": "Home 1",
+      "sections": [ "about", "cta", "taxonomy", "services", "pricing", "counter", "testimonial", "team", "blog", "contact-form" ],
+      "menu_items": [ "about", "services", "pricing", "team", "contact-form" ],
+      "limit": 12
+    }
+  ],
+  "variant_four": [
+    {
+      "name": "Home 1",
+      "sections": [ "about", "cta", "taxonomy", "blog", "services", "cta", "testimonial", "pricing", "team", "contact-form", "cta" ],
+      "menu_items": [ "about", "blog", "services", "team", "contact-form" ],
+      "limit": 12
+    }
+  ]
+}
