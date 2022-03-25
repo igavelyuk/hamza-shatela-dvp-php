@@ -39,14 +39,14 @@ $added_pages = get_added_pages();
                 <h5 class="sigma_collapse-trigger">Advanced Settings</h5>
                 <div class="sigma_collapse-content">
                   <form id="advanced-settings" method="post">
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                       <label for="main-sheet">Author</label>
                       <select class="form-control" id="template-author" name="template-author">
                         <?php foreach( get_authors() as $key => $val ){ ?>
                         <option value="<?php echo $val['name'] ?>"><?php echo $val['name'] ?></option>
                         <?php } ?>
                       </select>
-                    </div> -->
+                    </div>
                     <div class="form-group">
                       <label for="main-sheet">Stylesheet</label>
                       <select class="form-control" id="main-sheet" name="main-sheet">
@@ -79,14 +79,14 @@ $added_pages = get_added_pages();
                         <?php } ?>
                       </select>
                     </div>
-                    <!-- <div class="form-group">
+                    <div class="form-group">
                       <label for="font-style">Font Style</label>
-                      <select class="form-control" id="font-style" name="font-style"> -->
+                      <select class="form-control" id="font-style" name="font-style">
                         <?php foreach( get_font_styles( ) as $key => $val ){ ?>
-                        <!-- <option value="<?php echo $key ?>"><?php echo $val ?></option> -->
+                        <option value="<?php echo $key ?>"><?php echo $val ?></option>
                         <?php } ?>
-                      <!-- </select>
-                    </div> -->
+                      </select>
+                    </div>
                     <div class="form-group mb-0">
                       <div data-toggle="tooltip" title="Keep the added sections selected after page creation" class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="keep-sections">
